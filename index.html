@@ -6,10 +6,220 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img/flower_watercolor.ico">
     <title>Card Filter</title>
 </head>
 <body>
+    <header>
+        <h1 class="text-white text-center p-4" style="background-color: rgb(228, 96, 147)"; >Plants Card Filter</h1>
+    </header>
+    <div class="container">
+        <div class="input-filter">
+            <input type="text" name="" id="filter" class="filter" placeholder="Enter Title" onkeyup="">
+        </div>
 
+        <div class="card-lists" id="card-lists">
+            <div class="row">
+                <div class="card">
+                    <img src="img/azalea_030534.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Azalea</h5>
+                        <h6 class="card-subtitle"><i>Rhododendron</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/acacia.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Acacia</h5>
+                        <h6 class="card-subtitle"><i>Acacia</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/agapanto.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Agapanto</h5>
+                        <h6 class="card-subtitle"><i>Agapanthus africanus</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/camelia.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Camelia</h5>
+                        <h6 class="card-subtitle"><i>Camellia</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/belladona_flor.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Belladona</h5>
+                        <h6 class="card-subtitle"><i>Atropa belladonna</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/crisantemo.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Crisantemo</h5>
+                        <h6 class="card-subtitle"><i>Chrysanthemum</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/violetas.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Violeta</h5>
+                        <h6 class="card-subtitle"><i>Viola odorata</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/tulipanes.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Tulipán</h5>
+                        <h6 class="card-subtitle"><i>Tulipa</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/rosal-con-rosas-rojas.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Rosa</h5>
+                        <h6 class="card-subtitle"><i>Rosa</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/petunia.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Petunia</h5>
+                        <h6 class="card-subtitle"><i>Petunia</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/pensamientos.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Pensamiento</h5>
+                        <h6 class="card-subtitle"><i>Viola × wittrockiana</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/nomeolvides-myosotis_sylvatica.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Nomeolvides</h5>
+                        <h6 class="card-subtitle"><i>Myosotis</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/narcisos.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Narciso</h5>
+                        <h6 class="card-subtitle"><i>Narcissus</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/margaritas.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Margarita</h5>
+                        <h6 class="card-subtitle"><i>Bellis perennis</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/magnolia_m.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Magnolia</h5>
+                        <h6 class="card-subtitle"><i>Magnolia</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/lirios-azucenas-lilum.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Azucena o Lirio</h5>
+                        <h6 class="card-subtitle"><i>Lilium</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/lavanda.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Lavanda</h5>
+                        <h6 class="card-subtitle"><i>Lavandula</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/jazmin.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Jazmín</h5>
+                        <h6 class="card-subtitle"><i>Jasminum</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/jacinto.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Jacinto</h5>
+                        <h6 class="card-subtitle"><i>Hyacinthus</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/hortensias.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Hortensia</h5>
+                        <h6 class="card-subtitle"><i>Hydrangea macrophylla</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/girasol.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Azalea</h5>
+                        <h6 class="card-subtitle"><i>Helianthus annuus</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/fresias.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Fresia</h5>
+                        <h6 class="card-subtitle"><i>Freesia</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/roble.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Roble</h5>
+                        <h6 class="card-subtitle"><i>Quercus robur</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/ficus.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Ficus</h5>
+                        <h6 class="card-subtitle"><i>Ficus benjamina</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/jacaranda.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Jacarandá</h5>
+                        <h6 class="card-subtitle"><i>Jacaranda mimosifolia</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/azalea.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Azalea</h5>
+                        <h6 class="card-subtitle"><i>Rhododendron</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/azalea.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Azalea</h5>
+                        <h6 class="card-subtitle"><i>Rhododendron</i></h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/azalea.jpg" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title">Azalea</h5>
+                        <h6 class="card-subtitle"><i>Rhododendron</i></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
