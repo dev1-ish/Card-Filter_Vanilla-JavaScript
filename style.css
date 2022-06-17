@@ -1,0 +1,27 @@
+.card {
+    width: 18rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(12, 16, 31, .4);
+    margin: 20px 40px;
+    padding-top: 12px;
+}
+input {
+    border: 1px solid #333;
+    border-radius: 2px;
+    font-size: 18px;
+    padding: 12px 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+.filter:focus {
+    border-color: rgb(228, 96, 147);
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+h1 {
+    padding: 5px;
+}
+img {
+    width: 100%;
+    height: 80%;
+}
