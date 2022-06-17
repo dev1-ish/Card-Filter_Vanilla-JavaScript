@@ -1,0 +1,1 @@
+This project is a card filter with Vanilla JavaScript. It includes Bootstrap. Based on other projects, created for educational purposes only.
